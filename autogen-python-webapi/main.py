@@ -14,7 +14,7 @@ app = FastAPI()
 # Load autogen agent configurations from a JSON configuration list
 config_list = config_list_from_json(
     "OAI_CONFIG_LIST",
-    filter_dict={"model": ["gpt-4"]}
+    filter_dict={"model": ["gpt-4o-global-standard"]}
 )
 
 # Initialize the ConversableAgent for writing code
