@@ -18,8 +18,13 @@ This project provides a single and multi-agent interaction system running code i
 
 - Sandboxed code execution
 - Integration with Azure Container Apps
-- Agentic interactions (Semantic Kernel, Autogen)
-  - 
+- Agentic interactions examples(Semantic Kernel, Autogen)
+  - Semantic Kernel
+    - Try out [fastapi_multi_agent.py](./semantic-kernel-python-webapi/fastapi_multi_agent.py)! - 3 agents (code writer, reviewer, executor)
+    - [main.py](./semantic-kernel-python-webapi/main.py) - basic, single agent code execution example
+  - AutoGen
+    - [main.py](./autogen-python-webapi/main.py) - basic, two agent code execution example (code writer, code executor)
+
 
 ## Setup
 
