@@ -21,6 +21,7 @@ This project provides a single and multi-agent interaction system running code i
 - Agentic interactions examples(Semantic Kernel, Autogen)
   - Semantic Kernel
     - Try out [fastapi_multi_agent.py](./semantic-kernel-python-webapi/fastapi_multi_agent.py)! - 3 agents (code writer, reviewer, executor)
+      - Run `fastapi dev fastapi_multi_agent.py`, go to http://127.0.0.1:8000/docs#/default/chat_chat_get, enter an example that would need code execution such as, i.e: 'What is today's date and time? Show in Eastern time.'
     - [main.py](./semantic-kernel-python-webapi/main.py) - basic, single agent code execution example
   - AutoGen
     - [main.py](./autogen-python-webapi/main.py) - basic, two agent code execution example (code writer, code executor)

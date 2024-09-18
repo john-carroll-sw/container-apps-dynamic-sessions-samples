@@ -190,7 +190,7 @@ async def chat(message: str):
         instructions="""
             You are a CodeExecutor agent.
             You have access to an IPython kernel to execute Python code. 
-            You output only valid python code. 
+            Your output should be the result from executing valid python code. 
             This valid code will be executed in a sandbox, resulting in result, stdout, or stderr. 
             All necessary libraries have already been installed.
             You are entering a work session with other agents: CodeWriter, CodeReviewer.
